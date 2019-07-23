@@ -1,0 +1,12 @@
+# Original files
+Dockerfile
+Sphinx.ps1
+
+# Sphinx files
+_build/
+_static/
+_templates/
+conf.py
+index.rst
+make.bat
+Makefile
