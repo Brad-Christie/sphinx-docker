@@ -1,5 +1,8 @@
 [CmdletBinding(DefaultParameterSetName = "__Build")]
 Param(
+  [Parameter(ParameterSetName = "__Create")]
+  [switch]$Create
+  ,
   [Parameter(ParameterSetName = "__Create", Position = 0, Mandatory)]
   [ValidateNotNullOrEmpty()]
   [string]$ProjectName = "Sample"
