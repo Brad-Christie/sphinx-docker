@@ -60,7 +60,7 @@ Switch ($PSCmdlet.ParameterSetName) {
   "__Serve" {
     Write-Output "Serving..."
     docker.exe run -it --volume "${PSScriptRoot}:C:\project" --publish "3000:${Port}" $sphinxContainerName `
-      sphinx-autobuild --host 0.0.0.0 --port $Port --ignore *.ps1 --ignore .dockerignore --ignore Dockerfile --ignore .git/ $SourceDir $OutputDir
+      sphinx-autobuild --host 0.0.0.0 --port $Port --ignore *.ps1 --ignore .dockerignore --ignore Dockerfile --ignore .git\** $SourceDir $OutputDir
   }
 }
 <#
