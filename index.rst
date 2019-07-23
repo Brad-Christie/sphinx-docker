@@ -9,7 +9,8 @@ Welcome to Sphinx-Docker's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
+   about
 
 
 Indices and tables
