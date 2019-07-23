@@ -12,6 +12,6 @@ Creates an "Example" project, authored by "Me" defined as version "1.0.0"
 
 Builds the sphinx documentation.
 
-## .\Sphinx -Serve [-Port 3000] [-SourceDir .] [-OutputDir _build]
+## .\Sphinx.ps1 -Serve [-Port 3000] [-SourceDir .] [-OutputDir _build]
 
 Builds and hosts the sphinx documentation, while also serving it (and watching for changes).
